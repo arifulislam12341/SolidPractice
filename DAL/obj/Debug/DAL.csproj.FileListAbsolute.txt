@@ -1,0 +1,10 @@
+D:\ASP.NET\SOLID\DAL\bin\Debug\DAL.dll.config
+D:\ASP.NET\SOLID\DAL\bin\Debug\DAL.dll
+D:\ASP.NET\SOLID\DAL\bin\Debug\DAL.pdb
+D:\ASP.NET\SOLID\DAL\bin\Debug\EntityFramework.dll
+D:\ASP.NET\SOLID\DAL\bin\Debug\EntityFramework.xml
+D:\ASP.NET\SOLID\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\ASP.NET\SOLID\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ASP.NET\SOLID\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\ASP.NET\SOLID\DAL\obj\Debug\DAL.dll
+D:\ASP.NET\SOLID\DAL\obj\Debug\DAL.pdb
