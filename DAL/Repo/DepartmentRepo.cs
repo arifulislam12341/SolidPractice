@@ -17,6 +17,7 @@ namespace DAL.Repo
         }
         public bool Create(Department obj)
         {
+
             db.Departments.Add(obj);
             return true;
         }

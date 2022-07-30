@@ -19,27 +19,37 @@ namespace DAL.Repo
 
         public bool Create(Student obj)
         {
-            throw new NotImplementedException();
+            db.Students.Add(obj);
+            db.SaveChanges();
+            return true;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+          var studentid=Get(id)  ;
+            db.Students.Remove(studentid);
+            return true;
         }
 
         public List<Student> Get()
         {
-            throw new NotImplementedException();
+            return db.Students.ToList();
         }
 
         public Student Get(int id)
         {
-            throw new NotImplementedException();
+            var studentid=Get(id);
+            return db.Students.Find(studentid);
         }
 
         public bool Update(Student obj)
         {
-            throw new NotImplementedException();
+            var students= new Student();
+            students.Name = obj.Name;
+            students.Address = obj.Address;
+            students.Cgpa = obj.Cgpa;
+             db.SaveChanges();
+            return true;
         }
     }
 }
